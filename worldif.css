@@ -1,0 +1,11 @@
+.gobbet .worldif-logo {
+  height: inherit;
+  display: inline;
+}
+.gobbet .worldif-logo {
+  background: var(--Gobbet-color, #059486);
+}
+.gobbet-title-wrapper {
+  height: inherit;
+  float: none;
+}
