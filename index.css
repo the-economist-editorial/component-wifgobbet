@@ -1,4 +1,3 @@
-@import '@economist/component-palette-worldif';
 
 :root {
   --Gobbet-title-background: var(--grey, #6e7b82);
@@ -7,4 +6,5 @@
 
 @import './worldif';
 @import '@economist/component-gobbet';
+@import '@economist/component-palette-worldif';
 @import '@economist/component-sharebar';
