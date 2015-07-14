@@ -72,6 +72,8 @@
   "dependencies": {
     "@economist/component-gobbet": "^1.0.0",
     "@economist/component-icon": "^2.1.0",
+    "@economist/component-palette-worldif": "^1.0.0",
+    "@economist/component-sharebar": "^1.1.2",
     "react": "^0.13.3"
   },
   "devDependencies": {

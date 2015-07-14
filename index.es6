@@ -14,8 +14,8 @@ export default class WorldIfGobbet extends React.Component {
   }
 
   render() {
-    const customHeader = (<span className="gobbet-title-wrapper">WHAT <Icon type="logoWorldIF" className="worldif-logo"
-    background="none" /></span>);
+    const customHeader = (<span className="gobbet-title-wrapper">WHAT <Icon icon="worldif"
+      className="worldif-logo wifgobbet-logo" background="none" /></span>);
     return (
       <Gobbet className="gobbet" showShareBar={true} title={customHeader}>
         {this.props.children}

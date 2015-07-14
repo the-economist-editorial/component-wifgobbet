@@ -4,6 +4,19 @@
   --Gobbet-color: var(--green, #059486);
 }
 
+.wifgobbet-logo {
+  {
+    svg {
+      width: 41px;
+      height: 41px;
+      background-color: #33BDEB;
+    }
+    use {
+      transform: scale(0.75) translate(6px,6px);
+    }
+  }
+}
+
 @import './worldif';
 @import '@economist/component-gobbet';
 @import '@economist/component-palette-worldif';
