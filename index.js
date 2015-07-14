@@ -23,13 +23,13 @@ var _economistComponentGobbet = require('@economist/component-gobbet');
 var _economistComponentGobbet2 = _interopRequireDefault(_economistComponentGobbet);
 
 var WorldIfGobbet = (function (_React$Component) {
+  _inherits(WorldIfGobbet, _React$Component);
+
   function WorldIfGobbet() {
     _classCallCheck(this, WorldIfGobbet);
 
     _React$Component.apply(this, arguments);
   }
-
-  _inherits(WorldIfGobbet, _React$Component);
 
   WorldIfGobbet.prototype.render = function render() {
     var customHeader = _react2['default'].createElement(
