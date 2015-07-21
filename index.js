@@ -36,8 +36,8 @@ var WorldIfGobbet = (function (_React$Component) {
       'span',
       { className: 'gobbet-title-wrapper' },
       'WHAT ',
-      _react2['default'].createElement(_economistComponentIcon2['default'], { type: 'logoWorldIF', className: 'worldif-logo',
-        background: 'none' })
+      _react2['default'].createElement(_economistComponentIcon2['default'], { icon: 'worldif',
+        className: 'worldif-logo wifgobbet-logo', background: 'none' })
     );
     return _react2['default'].createElement(
       _economistComponentGobbet2['default'],
