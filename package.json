@@ -1,6 +1,6 @@
 {
   "name": "@economist/component-wifgobbet",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A customized version of gobbet element with sharebar",
   "author": "The Economist (http://economist.com)",
   "license": "ISC",
@@ -71,7 +71,7 @@
   },
   "dependencies": {
     "@economist/component-gobbet": "^1.0.0",
-    "@economist/component-icon": "^2.1.0",
+    "@economist/component-icon": "^2.1.2",
     "@economist/component-palette-worldif": "^1.0.0",
     "@economist/component-sharebar": "^1.1.2",
     "react": "^0.13.3"
