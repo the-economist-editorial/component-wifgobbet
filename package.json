@@ -71,7 +71,7 @@
     "build": "npm-assets ."
   },
   "dependencies": {
-    "@economist/component-gobbet": "^3.0.0",
+    "@economist/component-gobbet": "^3.0.1",
     "@economist/component-icon": "^3.0.2",
     "@economist/component-palette-worldif": "^1.0.0",
     "@economist/component-sharebar": "^1.2.5",

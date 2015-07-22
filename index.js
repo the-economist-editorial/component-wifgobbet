@@ -34,14 +34,14 @@ var WorldIfGobbet = (function (_React$Component) {
   WorldIfGobbet.prototype.render = function render() {
     var customHeader = _react2['default'].createElement(
       'span',
-      { className: 'gobbet-title-wrapper' },
+      { className: 'Gobbet--title-wrapper' },
       'WHAT ',
       _react2['default'].createElement(_economistComponentIcon2['default'], { icon: 'worldif',
-        className: 'worldif-logo wifgobbet-logo', background: 'none' })
+        className: 'wif-gobbet-logo', background: 'none' })
     );
     return _react2['default'].createElement(
       _economistComponentGobbet2['default'],
-      { className: 'gobbet', showShareBar: true, title: customHeader },
+      { className: 'Gobbet', showShareBar: true, sharebar: this.props.shareBarFlip, title: customHeader },
       this.props.children
     );
   };
@@ -53,7 +53,22 @@ var WorldIfGobbet = (function (_React$Component) {
         title: _react2['default'].PropTypes.node,
         children: _react2['default'].PropTypes.node,
         showShareBar: _react2['default'].PropTypes.bool,
-        sharebar: _react2['default'].PropTypes.object
+        sharebar: _react2['default'].PropTypes.object,
+        shareBarFlip: _react2['default'].PropTypes.object
+      };
+    }
+  }, {
+    key: 'defaultProps',
+    get: function get() {
+      return {
+        shareBarFlip: {
+          useSvg: true,
+          fxDirection: 'flip-to-top',
+          fxType: 'cube',
+          layout: 'horizontal',
+          background: '#333333',
+          fxDefaultStateBackground: '#999999'
+        }
       };
     }
   }]);
