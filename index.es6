@@ -10,14 +10,28 @@ export default class WorldIfGobbet extends React.Component {
       children: React.PropTypes.node,
       showShareBar: React.PropTypes.bool,
       sharebar: React.PropTypes.object,
+      shareBarFlip: React.PropTypes.object,
+    };
+  }
+
+  static get defaultProps() {
+    return {
+      shareBarFlip: {
+        useSvg: true,
+        fxDirection: 'flip-to-top',
+        fxType: 'cube',
+        layout: 'horizontal',
+        background: '#333333',
+        fxDefaultStateBackground: '#999999',
+      },
     };
   }
 
   render() {
-    const customHeader = (<span className="gobbet-title-wrapper">WHAT <Icon icon="worldif"
-      className="worldif-logo wifgobbet-logo" background="none" /></span>);
+    const customHeader = (<span className="Gobbet--title-wrapper">WHAT <Icon icon="worldif"
+      className="wif-gobbet-logo" background="none" /></span>);
     return (
-      <Gobbet className="gobbet" showShareBar={true} title={customHeader}>
+      <Gobbet className="Gobbet" showShareBar={true} sharebar={this.props.shareBarFlip} title={customHeader}>
         {this.props.children}
       </Gobbet>
     );

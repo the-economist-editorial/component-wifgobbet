@@ -1,0 +1,22 @@
+.Gobbet--header {
+  overflow: hidden;
+  background: #333;
+  height: 38px;
+}
+.Gobbet--header-aside {
+  width: 50%;
+  margin: 0;
+}
+.Gobbet--header-title {
+  color: #fff;
+  margin: 0 0 0 10px;
+  width: calc(50% - 10px);
+}
+.Gobbet--header .default-state {
+  background: none;
+}
+@media screen and (max-width: 600px) {
+  .Gobbet--header-title {
+    font-size: 20px;
+  }
+}
