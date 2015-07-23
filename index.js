@@ -34,14 +34,14 @@ var WorldIfGobbet = (function (_React$Component) {
   WorldIfGobbet.prototype.render = function render() {
     var customHeader = _react2['default'].createElement(
       'span',
-      { className: 'Gobbet--title-wrapper' },
+      { className: "Gobbet--title-wrapper" },
       'WHAT ',
-      _react2['default'].createElement(_economistComponentIcon2['default'], { icon: 'worldif',
-        className: 'wif-gobbet-logo', background: 'none' })
+      _react2['default'].createElement(_economistComponentIcon2['default'], { icon: "worldif",
+        className: "wif-gobbet-logo", background: "none" })
     );
     return _react2['default'].createElement(
       _economistComponentGobbet2['default'],
-      { className: 'Gobbet', showShareBar: true, sharebar: this.props.shareBarFlip, title: customHeader },
+      { className: "Gobbet", showShareBar: true, sharebar: this.props.shareBarFlip, title: customHeader },
       this.props.children
     );
   };
