@@ -14,10 +14,6 @@ var _react = require('react');
 
 var _react2 = _interopRequireDefault(_react);
 
-var _economistComponentIcon = require('@economist/component-icon');
-
-var _economistComponentIcon2 = _interopRequireDefault(_economistComponentIcon);
-
 var _economistComponentGobbet = require('@economist/component-gobbet');
 
 var _economistComponentGobbet2 = _interopRequireDefault(_economistComponentGobbet);
@@ -33,15 +29,22 @@ var WorldIfGobbet = (function (_React$Component) {
 
   WorldIfGobbet.prototype.render = function render() {
     var customHeader = _react2['default'].createElement(
-      'span',
-      { className: "Gobbet--title-wrapper" },
-      'WHAT ',
-      _react2['default'].createElement(_economistComponentIcon2['default'], { icon: "worldif",
-        className: "wif-gobbet-logo", background: "none" })
+      'div',
+      null,
+      _react2['default'].createElement(
+        'span',
+        { className: 'Gobbet--title-left' },
+        'WHAT'
+      ),
+      _react2['default'].createElement(
+        'span',
+        { className: 'Gobbet--title-right' },
+        'IF'
+      )
     );
     return _react2['default'].createElement(
       _economistComponentGobbet2['default'],
-      { className: "Gobbet", showShareBar: true, sharebar: this.props.shareBarFlip, title: customHeader },
+      { className: 'Gobbet', showShareBar: true, sharebar: this.props.shareBarFlip, title: customHeader },
       this.props.children
     );
   };

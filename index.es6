@@ -1,5 +1,4 @@
 import React from 'react';
-import Icon from '@economist/component-icon';
 import Gobbet from '@economist/component-gobbet';
 
 export default class WorldIfGobbet extends React.Component {
@@ -28,8 +27,8 @@ export default class WorldIfGobbet extends React.Component {
   }
 
   render() {
-    const customHeader = (<span className="Gobbet--title-wrapper">WHAT <Icon icon="worldif"
-      className="wif-gobbet-logo" background="none" /></span>);
+    const customHeader = (<div><span className="Gobbet--title-left">WHAT</span>
+      <span className="Gobbet--title-right">IF</span></div>);
     return (
       <Gobbet className="Gobbet" showShareBar={true} sharebar={this.props.shareBarFlip} title={customHeader}>
         {this.props.children}
