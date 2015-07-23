@@ -22,6 +22,7 @@ export default class WorldIfGobbet extends React.Component {
         layout: 'horizontal',
         background: '#333333',
         fxDefaultStateBackground: '#999999',
+        size: '100%',
       },
     };
   }
