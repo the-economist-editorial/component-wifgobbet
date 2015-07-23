@@ -72,6 +72,7 @@
   },
   "dependencies": {
     "@economist/component-gobbet": "^3.0.2",
+    "@economist/component-font-neutra2": "^1.0.4",
     "@economist/component-palette-worldif": "^1.0.0",
     "@economist/component-sharebar": "^1.2.5",
     "react": "^0.13.3"

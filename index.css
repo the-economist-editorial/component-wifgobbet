@@ -1,6 +1,22 @@
+@import '@economist/component-font-neutra2';
 @import '@economist/component-gobbet';
 @import '@economist/component-sharebar';
 
+.Gobbet--header-title {
+  position: absolute;
+  float: none;
+}
+.Gobbet--header-title span {
+  line-height: 35px;
+  font-size: 30px;
+  color: #ffffff;
+}
 .Gobbet--title-left {
-  margin-right: 5px;
+  font-family: Neutra2Display-Medium;
+  margin: 0 5px;
+}
+.Gobbet--title-right {
+  display: inline-block;
+  background-color: #e3120b;
+  padding: 0 5px;
 }
