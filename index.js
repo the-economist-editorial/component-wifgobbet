@@ -70,7 +70,8 @@ var WorldIfGobbet = (function (_React$Component) {
           fxType: 'cube',
           layout: 'horizontal',
           background: '#333333',
-          fxDefaultStateBackground: '#999999'
+          fxDefaultStateBackground: '#999999',
+          size: '100%'
         }
       };
     }
